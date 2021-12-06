@@ -1,2 +1,2 @@
 # CSharp-Small-Projects
-Mad Libs Word Game
+Small Projects from Code Academy
