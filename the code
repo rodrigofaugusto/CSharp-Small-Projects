@@ -1,0 +1,74 @@
+using System;
+
+namespace MadLibs
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      /*
+      This program is the word game made lips
+      Author: Rodrigo Mendes Augusto
+      */
+
+
+      // Let the user know that the program is starting:
+
+
+      // Give the Mad Lib a title:
+      string title = "THE LOVE";
+
+      Console.WriteLine(title);
+      // Define user input and variables:
+
+      Console.WriteLine ("The Game is starting...");
+      // The template for the story:
+      //The Main Character
+      Console.WriteLine ("Enter a name: ");
+      string name = Console.ReadLine ();
+
+      //3 Adjectives
+      Console.WriteLine ("Enter the first adjective in regards with feelings: ");
+      string firstAdj= Console.ReadLine ();
+      Console.WriteLine ("Enter the second adjective in regards with NonSense: ");
+      string secondAdj= Console.ReadLine ();
+      Console.WriteLine ("Enter the third adjective in regards with Love: ");
+      string thirdAdj= Console.ReadLine ();
+      
+      // A Verb
+      Console.WriteLine ("Enter a verb: ");
+      string verb=Console.ReadLine ();
+
+      // 2 nouns
+      Console.WriteLine("Enter the first noun: ");
+      string noun_1= Console.ReadLine();
+      Console.WriteLine ("Enter the second noun: ");
+      string noun_2= Console.ReadLine();
+    
+      // Random
+      Console.WriteLine ("Enter an animal: ");
+      string animal= Console.ReadLine ();
+      Console.WriteLine ("Enter a food: ");
+      string food =Console.ReadLine();
+      Console.WriteLine ("Enter a fruit: ");
+      string fruit= Console.ReadLine();
+      Console.WriteLine ("Enter a Superhero: ");
+      string superhero=Console.ReadLine ();
+      Console.WriteLine ("Enter a Country: ");
+      string country= Console.ReadLine();
+      Console.WriteLine ("Enter a Desert: ");
+      string desert= Console.ReadLine();
+      Console.WriteLine ("Enter a Year: ");
+      string year=Console.ReadLine();
+
+
+
+      string story = $"This morning {name} woke up feeling {firstAdj}. 'It is going to be a {secondAdj} day!' Outside, a bunch of {animal}s were protesting to keep {food} in stores. They began to {verb} to the rhythm of the {noun_1}, which made all the {fruit}s very {thirdAdj}. Concerned, {name} texted {superhero}, who flew {name} to {country} and dropped {name} in a puddle of frozen {desert}. {name} woke up in the year {year}, in a world where {noun_2}s ruled the world.";
+
+    Console.WriteLine (story);
+
+      // Print the story:
+
+    }
+  }
+}
